@@ -1,3 +1,24 @@
 body{
     background: #BDBDBD;
 }
+#contact-form input[type="email"], textarea {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    min-height: 30px;
+    padding-left: 10px;
+
+}
+#contact-form textarea {
+    height: 120px;
+}
+.move {
+    vertical-align: top;
+}
+.button {
+    color: white;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+}
+.contact {
+    margin-top: -50px;
+}
